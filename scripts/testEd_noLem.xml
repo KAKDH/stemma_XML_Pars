@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>Hrómundar saga: A test digital edition of the 17th century version with variants from oldest manuscripts</title>
+                <respStmt>
+                    <resp>Created on <date when="2023-09-17"/> by converting a tex file into an xml by: </resp>
+                    <persName>Katarzyna Anna Kapitan</persName>
+                    <orgName type="affiliation">University of Oxford</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor><persName>Katarzyna Anna Kapitan</persName></distributor>
+                <availability status="restricted">
+                    <p>This text is available for purposes of academic research and teaching only. 
+                        It has been automatically extracted from a forthcoming edition.
+                        Redistribution in any form without prior permission is prohibited. Short
+                        extracts may be cited with full acknowledgment of the source.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A601">AM 601 b 4to</witness>
+                    <witness xml:id="A193">AM 193 e fol.</witness>
+                    <witness xml:id="A345">AM 345 4to</witness>
+                    <witness xml:id="A587">AM 587 b 4to</witness>
+                    <witness xml:id="B4859">BL Add 4859</witness>
+                    <witness xml:id="L222">Lbs 222 fol.</witness>
+                    <witness xml:id="P67">Papp. Fol. nr 67</witness>
+                    <witness xml:id="T1768">Thott 1768 4to</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="oic">
+        <body>
+            <div>
+                <p>  h<ex>ann</ex> v<ex>ar</ex> s<ex>onr</ex> Gnóþar <app>
+                        <lem>Asmund<ex>ar</ex></lem>
+                        <rdg wit="#A587 #A193">+ d. </rdg>
+                    </app> , h<ex>ann</ex> var <app>
+                        <lem>frǫgr <ex>maþr</ex></lem>
+                        <rdg wit="#A587 #A193">maþr frægr </rdg>
+                    </app> . <note>In A601, the M-rune is used to abbreviate <q>maðr</q>. </note>
+                    Brǫþr .ij. kári oc ørnulfr, v<ex>or</ex>u l<ex>an</ex>dv<ex>ar</ex>n<ex>ar</ex>
+                        m<ex>enn</ex> k<ex>on</ex>gz, herm<ex>enn</ex> mikl<ex>er</ex>. Þar Bió
+                        e<ex>ir</ex>n rýk<ex>ur</ex> Boandi, <app>
+                        <lem>sá hiet Greýpr</lem>
+                        <rdg wit="#A345">er Greypur hiet </rdg>
+                    </app> . h<ex>ann</ex> átte þá <ex>kon</ex>o, e<ex>r</ex> Gunnlǫþ h<ex>ie</ex>t,
+                        dótt<ex>er</ex> Hrókz hinz su<ex>ar</ex>ta, Þau átto .ix. sono e<ex>r</ex>
+                    sva h<ex>ie</ex>to. Hrólfr, Hake, Gautr⟨,⟩ Þrǫstr, Angantýr, Logi, Hrómundr.
+                    Helge. Hrókr. Þ<ex>ei</ex>r v<ex>or</ex>u all<ex>er</ex>
+                        efnil<ex>e</ex>g<ex>er</ex> m<ex>enn</ex>. Þo v<ex>ar</ex> Hrómundr
+                        f<ex>yrir</ex> þ<ex>ei</ex>m aullom. h<ex>ann</ex> kunni <app>
+                        <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                        <rdg wit="#A193 #P67 #L222">ei </rdg>
+                    </app> at hrǫdast, h<ex>ann</ex> v<ex>ar</ex> augna fagr, hárbi<ex>ar</ex>tr, oc
+                        h<ex>er</ex>þamikill, mikill oc st<ex>er</ex>cr, lýkt<ex>iz</ex> miǫc Hróki
+                    móþr fauþr sýnom. M<ex>ed</ex> k<ex>on</ex>gi v<ex>or</ex>u .ij. m<ex>enn</ex>,
+                        h<ex>ie</ex>t e<ex>ir</ex>n Býld<ex>ur</ex>, ann<ex>ar</ex> voli,
+                        Þ<ex>ei</ex>r v<ex>or</ex>u Ill<ex>er</ex> oc
+                    und<ex>er</ex>fǫrul<ex>er</ex>. k<ex>on</ex>gr matti Þá mikils. Eytt sinn hiellt
+                    olafr <app>
+                        <lem>k<ex>on</ex>gr</lem>
+                        <rdg wit="#A345">÷ </rdg>
+                    </app> , <app>
+                        <lem>austur</lem>
+                        <rdg wit="#A345">norþr </rdg>
+                        <rdg wit="#P67">vestur </rdg>
+                    </app>
+                    <note>In P67, <q>austur</q> is corrected into <q>vestur</q>, most likely by a
+                        younger hand.</note> f<ex>yrir</ex> noreg m<ex>ed</ex> h<ex>er</ex> sinn, oc
+                    hielldo aþ Vlfaskerium, h<ex>er</ex>ioþo, oc lau viþ eitt Eýl<ex>an</ex>d.
+                        K<ex>on</ex>gr býþr Kára oc Ørnulfi aþ g<ex>an</ex>ga uppá Eýuna, oc vita,
+                        hu<ex>or</ex>t þ<ex>ei</ex>r <app>
+                        <lem>sæe</lem>
+                        <rdg wit="#A345 #B4859">sæo </rdg>
+                    </app>
+                    <app>
+                        <lem>einginn</lem>
+                        <rdg wit="#A587">eingi </rdg>
+                        <rdg wit="#A193 #T1768 #A345 #L222 #B4859">engi </rdg>
+                    </app>
+                    <app>
+                        <lem>h<ex>er</ex>skip</lem>
+                        <rdg wit="#A345 #L222 #B4859">skip </rdg>
+                    </app> . Þ<ex>ei</ex>r g<ex>en</ex>gu uppá l<ex>an</ex>d<ex>iþ</ex>, oc litu
+                    .vj. h<ex>er</ex>skip und<ex>er</ex> hǫm<ex>rum</ex> n<ex>oc</ex><ex>rum</ex>.
+                        Þ<ex>ar</ex> v<ex>ar</ex> e<ex>ir</ex>n d<ex>re</ex>ke
+                    allskrautl<ex>i</ex>gr. Kári kallar til þ<ex>ei</ex>ra, oc <app>
+                        <lem>spir</lem>
+                        <rdg wit="#P67">+ efter </rdg>
+                    </app>
+                    <app>
+                        <lem>hu<ex>or</ex>i<ex>er</ex></lem>
+                        <rdg wit="#A587 #A193">hver </rdg>
+                        <rdg wit="#T1768">hvorir </rdg>
+                        <rdg wit="#A345 #P67 #L222">hvor </rdg>
+                        <rdg wit="#B4859">huerier </rdg>
+                    </app> f<ex>yrir</ex> skiponom rieþi, Eirn dólgr stóþ uppá d<ex>re</ex>kanom, oc
+                        q<ex>va</ex>dz Hraungviþr heita. e<ex>þr</ex> hu<ex>or</ex>t e<ex>r</ex>
+                    nafn þitt. Kari sagþi til sýn oc sýnz broþurz. oc m<ex>æ</ex>l<ex>ti</ex>. Eg
+                    veit aungvann verri enn þik, oc þar f<ex>yrir</ex>
+                    <app>
+                        <lem>s<ex>ka</ex>l</lem>
+                        <rdg wit="#P67">vil </rdg>
+                    </app> ek hauggva þ<ex>ic</ex> i smá sticki, <app>
+                        <lem>Hraungviþr. m<ex>æ</ex>l<ex>ti</ex></lem>
+                        <rdg wit="#P67">Þä mællte Hraungvidur </rdg>
+                    </app> : Ek <app>
+                        <lem>h<ex>e</ex>fi</lem>
+                        <rdg wit="#A345 #L222 #B4859">hefer </rdg>
+                    </app> h<ex>er</ex>iaþ sum<ex>ar</ex> oc vetr, i xxxiij ár, <app>
+                        <lem>oc</lem>
+                        <rdg wit="#L222">+ hefi </rdg>
+                    </app> háþ lx o<ex>ru</ex><ex>stur</ex>, oc <app>
+                        <lem>feing<ex>iþ</ex> Jafnan</lem>
+                        <rdg wit="#T1768">jafnan fengid </rdg>
+                        <rdg wit="#B4859">jafnan </rdg>
+                    </app> sigr. Mitt suerþ h<ex>ei</ex>t<ex>er</ex> Brinþu<ex>ar</ex>e, e<ex>r</ex>
+                        alld<ex>ri</ex> h<ex>e</ex>fr <app>
+                        <lem>sliófgast</lem>
+                        <rdg wit="#P67">sliofast </rdg>
+                    </app> . <app>
+                        <lem>komdo</lem>
+                        <rdg wit="#A587 #T1768">kondu </rdg>
+                        <rdg wit="#A193 #A345 #L222 #B4859">kom þú </rdg>
+                    </app> hi<ex>er</ex> á m<ex>or</ex>gun kári, <app>
+                        <lem>ek</lem>
+                        <rdg wit="#A345">oc </rdg>
+                    </app>
+                 </p>
+            </div>
+        </body>
+    </text>
+</TEI>

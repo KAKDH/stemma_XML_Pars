@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>testEd_withLem: A test file for a digital edition (short, with shelfmarks in lemma) to be used in XML to Pars input conversion</title>
+                <respStmt>
+                    <resp>Created on <date when="2023-09-17"/> by: </resp>
+                    <persName>Katarzyna Anna Kapitan</persName>
+                    <orgName type="affiliation">University of Oxford</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority><persName>Katarzyna Anna Kapitan</persName></authority>
+                <availability status="free">
+                    <p>CC-BY-NC</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="L679">Lbs 679 4to</witness>
+                    <witness xml:id="B11109">BL Add 11,109</witness>
+                    <witness xml:id="L2404">Lbs 2404 4to</witness>
+                    <witness xml:id="L1572">Lbs 1572 4to</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="oic">
+        <body>
+            <div type="chapter" n="1">
+                <p> Sva hefr Søgo þessa, a<ex>t</ex> á þeim tímum s<ex>em</ex> m<ex>ar</ex>g<ex>ir</ex> <app>
+                        <lem wit="#B11109 #L679 #L2404">m<ex>ar</ex>g<ex>ir</ex>
+                                Stólk<ex>on</ex>g<ex>ar</ex></lem>
+                        <rdg wit="#L1572">fylkis kongar </rdg>
+                </app> voro í
+                    Norvegi, Danm<ex>or</ex>co oc Svíþjóþ, g<ex>jỏr</ex>þost m<ex>ar</ex>g<ex>ir</ex>  <app>
+                        <lem wit="#B11109 #L679">Hỏfþíngj<ex>ar</ex></lem>
+                        <rdg wit="#L1572 #2404"> ÷ </rdg>
+                    </app>
+                    oc st<ex>or</ex>mektug<ex>ir</ex> 
+                    <app>
+                        <lem wit="#B11109 #L1572 #L2404">Herr<ex>ar</ex></lem>
+                        <rdg wit="#L679"> ÷ </rdg>
+                    </app>, Greif<ex>ar</ex> oc J<ex>ar</ex>l<ex>ar</ex>, sem bruto sic til ricja oc landa,
+                    herjuþo <app>
+                        <lem wit="#B11109 #L679 #L1572">sva vel</lem>
+                        <rdg wit="#L2404">jafnvel</rdg>
+                    </app> á vetrom sem sumrom
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
