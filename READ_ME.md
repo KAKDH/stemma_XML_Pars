@@ -1,6 +1,6 @@
-READ_ME.txt
+# Stemma_XML_Pars
 
-This repository contains two folders: Scripts and Data, both created in September 2023 to accompany the article 'A digital perspective on the role of a stemma in material-philological transmission studies' accepted for publication in Studier i Nordisk (scheduled for 2024). 
+This repository contains scripts and data created in September 2023 to accompany the article 'A digital perspective on the role of a stemma in material-philological transmission studies' accepted for publication in Studier i Nordisk (scheduled for 2024). 
 
 *1. Scripts*
 
@@ -16,11 +16,5 @@ It assigns the same numeric value to all witnesses that are not encoded in the <
 
 parsInput_withLem.py requires a well-formatted TEI-XML with the <listWit> (witness list) element, which lists all witnesses. It assumes that all the <lem> (lemma) and <rdg> (reading) elements have the wit (witness) attribute with values pointing to the list of witnesses. It assigns the same numeric value to all witnesses that are encoded in the same <rdg> or <lem> elements.
 
-*2. Data*
 
-In the Data folder you find the data used within the PHYLIP package to visualise relationships among the manuscripts of Hrómundar saga, discussed in the article. 
-
-majVar3024_November2017 contains files associated with a test on 30 witnesses (manuscripts only) and 24 places of variation where major variation appear. Figure 2 presents the outtree from this test. 
-
-majVar3224_November2017 contains files associated with a test on 32 witnesses (manuscripts + 2 editions) and 24 places of variation where major variation appear (same as in majVar30_24_November2017). 
 
